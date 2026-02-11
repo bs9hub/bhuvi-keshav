@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhuvi ❤️ Keshav Mittal</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:radial-gradient(circle at top,#1a1a40,#0f0c29 60%);
+color:white;
+overflow-x:hidden;
+scroll-behavior:smooth;
+}
+section{
+min-height:100vh;
+padding:100px 10%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+opacity:0;
+transform:translateY(60px);
+transition:1.5s ease;
+}
+section.show{
+opacity:1;
+transform:translateY(0);
+}
+h1{
+font-family:'Playfair Display',serif;
+font-size:52px;
+margin-bottom:30px;
+}
+p{
+font-size:22px;
+max-width:900px;
+line-height:2;
+}
+
+/* Hearts */
+.heart{
+position:fixed;
+color:#ff4da6;
+animation:floatUp linear forwards;
+}
+@keyframes floatUp{
+0%{transform:translateY(0) scale(1);opacity:1}
+100%{transform:translateY(-120vh) scale(2);opacity:0}
+}
+
+/* Letter Popup */
+.popup{
+display:none;
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:white;
+color:#e91e63;
+padding:50px;
+border-radius:25px;
+max-width:800px;
+z-index:1000;
+box-shadow:0 0 50px rgba(255,0,100,0.6);
+animation:zoomIn 1s ease;
+}
+@keyframes zoomIn{
+from{transform:translate(-50%,-50%) scale(0.5);opacity:0}
+to{transform:translate(-50%,-50%) scale(1);opacity:1}
+}
+
+.overlay{
+display:none;
+position:fixed;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.8);
+top:0;left:0;
+z-index:999;
+}
+
+button{
+padding:18px 40px;
+font-size:22px;
+border:none;
+border-radius:50px;
+margin:20px;
+cursor:pointer;
+}
+.yesBtn{background:#ff4da6;color:white;}
+.noBtn{background:white;color:#e91e63;position:relative;}
+
+.fullscreen-proposal{
+position:fixed;
+top:0;left:0;
+width:100%;
+height:100%;
+background:black;
+display:none;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+z-index:2000;
+}
+.spotlight{
+position:absolute;
+width:300px;
+height:300px;
+border-radius:50%;
+background:radial-gradient(circle,rgba(255,255,255,0.9) 0%,rgba(0,0,0,0) 70%);
+animation:pulse 2s infinite;
+}
+@keyframes pulse{
+0%{transform:scale(1)}
+50%{transform:scale(1.2)}
+100%{transform:scale(1)}
+}
+.ring{
+font-size:120px;
+margin-top:30px;
+animation:ringAppear 2s ease forwards;
+transform:scale(0) rotate(-180deg);
+opacity:0;
+}
+@keyframes ringAppear{
+0%{transform:scale(0) rotate(-180deg);opacity:0;}
+60%{transform:scale(1.2) rotate(20deg);opacity:1;}
+100%{transform:scale(1) rotate(0deg);opacity:1;}
+}
+.finalText{font-size:40px;margin-top:30px;animation:fadeIn 3s ease;}
+
+</style>
+</head>
+<body>
+
+<audio id="bgMusic" autoplay loop>
+<source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=romantic-background-110624.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="fireSound">
+<source src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_5c3e4a5b1c.mp3?filename=fireworks-110623.mp3" type="audio/mpeg">
+</audio>
+
+<section>
+<h1>Happy Valentine's Day Keshav Mittal ❤️</h1>
+<p>This entire universe was created only for you tonight. Scroll slowly and feel how deeply you are loved.</p>
+</section>
+
+<section>
+<h1>Our Beginning 💫</h1>
+<p>The day of our first kiss is a memory I replay in my heart like my favorite love song. We were both nervous, trying to act normal, but our eyes gave away everything we were feeling. I remember how close we stood, how my heartbeat felt louder than the world around us, and how time seemed to slow down just for us. When we finally kissed, it was soft and hesitant for a second, and then suddenly it felt like everything made sense. All the nervousness melted into warmth, and butterflies rushed through me in the most overwhelming and beautiful way. It wasn’t just a kiss; it was the moment our story truly began. In that second, I felt safe, excited, and completely sure that something special was happening. Even now, when I close my eyes, I can still feel that exact spark — the shy smiles afterward, the way we couldn’t stop looking at each other, and the silent understanding that this was different. That was the moment you became more than just someone I liked. You became my person.</p>
+</section>
+
+<section>
+<h1>Why You Are My Safe Place 🤍</h1>
+<p>You are my safe place in a world that can sometimes feel overwhelming. With you, I never feel judged, rushed, or misunderstood. I can be completely myself — whether I am emotional, overthinking, dramatic, quiet, or laughing uncontrollably — and you accept every version of me. That kind of love is rare, and I never take it for granted. You listen to me when I speak, you comfort me when I am low, and you celebrate me when I succeed. Loving you feels calm yet exciting at the same time, like coming home after a long day but still feeling butterflies in your stomach. Every 10th November holds double meaning in my heart — it is the day you were born and the day our love story officially began. It feels like destiny tied those two beautiful things together forever. I do not choose you just on the easy days. I choose you on the complicated ones too. I choose your flaws, your strengths, your dreams, and your fears. I choose you — today, tomorrow, and always.</p>
+</section>
+
+<section>
+<h1>A Future With You ✨</h1>
+<p>When I imagine the future, the first thing I see is you standing beside me. I do not dream only about big milestones or grand celebrations; I dream about ordinary days made extraordinary simply because we are together. I imagine waking up next to you, talking about our plans, laughing about small things, and building a life that feels warm and steady. I imagine celebrating every 10th November not just as your birthday, but as the day that reminds us how beautifully our paths crossed. I want to support your dreams, encourage your ambitions, and stand by you through every challenge life brings. I want to grow with you, learn with you, and create memories that we will one day look back on with proud smiles. The idea of forever does not scare me when I think of it with you — it feels comforting and right. Loving you has already been the most meaningful chapter of my life, and I truly believe the best pages of our story are still waiting to be written.</p>
+</section>
+
+<section>
+<h1>Open My Letter 💌</h1>
+<button onclick="openLetter()">Open Letter</button>
+</section>
+
+<div class="overlay" id="overlay" onclick="closeLetter()"></div>
+<div class="popup" id="letterPopup">
+<h1>My Dearest Keshav,</h1>
+<p>You are my forever, my peace, my greatest blessing... (keep your letter here unchanged)</p>
+</div>
+
+<section>
+<h1>Mr. Keshav Mittal… 💍</h1>
+<h1>Will you be my forever?</h1>
+<button class="yesBtn" onclick="startProposal()">Yes ❤️</button>
+<button class="noBtn" onclick="moveNo(this)">No</button>
+</section>
+
+<div class="fullscreen-proposal" id="proposalScreen">
+<div class="spotlight"></div>
+<h1>Keshav Mittal Said YES 💍✨</h1>
+<div class="ring">💍</div>
+<div class="finalText">And our forever begins now… ❤️</div>
+</div>
+
+<script>
+
+// Scroll animation
+const sections=document.querySelectorAll("section");
+window.addEventListener("scroll",()=>{
+sections.forEach(sec=>{
+const top=sec.getBoundingClientRect().top;
+if(top<window.innerHeight-100){sec.classList.add("show");}
+});
+});
+
+// Hearts auto
+function createHeart(){
+const heart=document.createElement('div');
+heart.className='heart';
+heart.innerHTML='❤️';
+heart.style.left=Math.random()*100+'vw';
+heart.style.bottom='-20px';
+heart.style.fontSize=(20+Math.random()*40)+'px';
+heart.style.animationDuration=(4+Math.random()*4)+'s';
+document.body.appendChild(heart);
+setTimeout(()=>heart.remove(),8000);
+}
+setInterval(createHeart,120);
+
+// Letter popup
+function openLetter(){
+document.getElementById('overlay').style.display='block';
+document.getElementById('letterPopup').style.display='block';
+for(let i=0;i<40;i++){createHeart();}
+}
+function closeLetter(){
+document.getElementById('overlay').style.display='none';
+document.getElementById('letterPopup').style.display='none';
+}
+
+// No button move
+function moveNo(btn){
+btn.innerHTML="Try Again 😜";
+btn.style.position='absolute';
+btn.style.top=Math.random()*80+'%';
+btn.style.left=Math.random()*80+'%';
+}
+
+// Yes proposal
+function startProposal(){
+const proposal=document.getElementById('proposalScreen');
+document.getElementById('bgMusic').pause();
+proposal.style.display='flex';
+proposal.style.animation='fadeIn 1.5s ease forwards';
+
+// Play firework sound
+const fire=document.getElementById('fireSound');
+fire.currentTime=0;
+fire.play();
+
+// Extra heart burst
+for(let i=0;i<80;i++){
+setTimeout(()=>{createHeart();},i*40);
+}
+}
+}
+
+</script>
+
+</body>
+</html>
